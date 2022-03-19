@@ -9,22 +9,21 @@ const http_1 = require("http");
 const ClientManager_1 = require("./ClientManager");
 const logging_1 = require("../Util/logging");
 const StoredRun_1 = require("../RunManager/StoredRun/StoredRun");
-const DataRenamerStream_1 = require("../StreamUtils/DataRenamerStream");
-const CSVEncoderStream_1 = require("../StreamUtils/CSVEncoderStream");
+const StreamUtils_1 = require("../StreamUtils");
+const StreamUtils_2 = require("../StreamUtils");
 const log = logging_1.logger("FrontendManager");
 /**
  * Sets up and manages all frontend connections and routes. Responsible for
  * initializing the ClientManager.
  */
 class FrontendManager {
-    constructor(rm) {
+    constructor(opts, rm) {
         this._app = express_1.default();
         this._server = http_1.createServer(this._app);
         this._clientManager = new ClientManager_1.ClientManager(rm, this._server);
         this._runManager = rm;
         this.setupRoutes();
-        //TODO: Make frontend port a config var!
-        this._server.listen(3000, () => log(`Listening on ${3000}`));
+        this._server.listen(opts.port, () => log(`Listening on ${opts.port}`));
     }
     setupRoutes() {
         this._app.use(express_1.default.static('public'));
@@ -39,8 +38,8 @@ class FrontendManager {
         res.setHeader('Content-disposition', 'attachment; filename=' + run.metaManager().name() + ".csv");
         res.setHeader("content-type", "text/csv");
         run.getDataStream(0, true)
-            .pipe(new DataRenamerStream_1.DataRenamerStream(run.schemaManager()))
-            .pipe(new CSVEncoderStream_1.CSVEncoderStream(run.schemaManager().frameInterval()))
+            .pipe(new StreamUtils_1.DataRenamerStream(run.schemaManager()))
+            .pipe(new StreamUtils_2.CSVEncoderStream(run.schemaManager().frameInterval()))
             .pipe(res);
     }
 }
