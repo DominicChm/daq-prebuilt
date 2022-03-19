@@ -6,6 +6,7 @@ const FrontendManager_1 = require("./FrontendManager/FrontendManager");
 const DAQPathManager_1 = require("./DAQFileManager/DAQPathManager");
 const StoredRunManager_1 = require("./RunManager/StoredRunManager");
 const TimeSyncServer_1 = require("./TimeSync/TimeSyncServer");
+console.log(process.env);
 const daqFileManager = new DAQPathManager_1.DAQPathManager(process.env.DAQ_DATA_DIR ?? "./testData");
 const storedRunManager = new StoredRunManager_1.StoredRunManager({
     runDataDirectory: daqFileManager.RunDataPath()
