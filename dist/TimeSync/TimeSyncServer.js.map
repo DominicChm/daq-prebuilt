@@ -1,0 +1,1 @@
+{"version":3,"file":"TimeSyncServer.js","sourceRoot":"","sources":["../../bajacorev1/src/TimeSync/TimeSyncServer.ts"],"names":[],"mappings":";;;;;;AAAA,mDAAsC;AACtC,gDAAwB;AAExB,MAAa,cAAc;IAGvB;QACI,IAAI,CAAC,OAAO,GAAG,IAAI,uBAAM,CAAC,cAAI,CAAC,OAAO,CAAC,SAAS,EAAE,aAAa,CAAC,CAAC,CAAC;IACtE,CAAC;CACJ;AAND,wCAMC"}

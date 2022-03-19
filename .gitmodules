@@ -1,0 +1,6 @@
+[submodule "bajacorev1"]
+	path = bajacorev1
+	url = https://github.com/DominicChm/bajacorev1
+[submodule "bajafrontendv1"]
+	path = bajafrontendv1
+	url = https://github.com/DominicChm/bajafrontendv1

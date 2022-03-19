@@ -1,0 +1,1 @@
+{"version":3,"file":"DAQPathManager.d.ts","sourceRoot":"","sources":["../../bajacorev1/src/DAQFileManager/DAQPathManager.ts"],"names":[],"mappings":"AAIA,eAAO,MAAM,KAAK;;;;CAIjB,CAAA;AAED,qBAAa,cAAc;IACvB,OAAO,CAAC,QAAQ,CAAC,OAAO,CAAS;gBAErB,OAAO,EAAE,MAAM;IAS3B,OAAO,CAAC,OAAO;IAIf,WAAW;IAIX,kBAAkB;IAIlB,gBAAgB;CAGnB"}

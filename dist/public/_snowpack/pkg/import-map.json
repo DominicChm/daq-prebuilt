@@ -1,0 +1,29 @@
+{
+  "imports": {
+    "canvas-gauges": "./canvas-gauges.js",
+    "carbon-components-svelte": "./carbon-components-svelte.js",
+    "carbon-components-svelte/css/all.css": "./carbon-components-svelte/css/all.css",
+    "carbon-icons-svelte/lib/Archive16": "./carbon-icons-svelte/lib/Archive16.js",
+    "carbon-icons-svelte/lib/Archive24": "./carbon-icons-svelte/lib/Archive24.js",
+    "carbon-icons-svelte/lib/ConnectionSignal32": "./carbon-icons-svelte/lib/ConnectionSignal32.js",
+    "carbon-icons-svelte/lib/ConnectionSignalOff32": "./carbon-icons-svelte/lib/ConnectionSignalOff32.js",
+    "carbon-icons-svelte/lib/Edit24": "./carbon-icons-svelte/lib/Edit24.js",
+    "carbon-icons-svelte/lib/Fade16": "./carbon-icons-svelte/lib/Fade16.js",
+    "carbon-icons-svelte/lib/Pause32": "./carbon-icons-svelte/lib/Pause32.js",
+    "carbon-icons-svelte/lib/Play32": "./carbon-icons-svelte/lib/Play32.js",
+    "carbon-icons-svelte/lib/Recording32": "./carbon-icons-svelte/lib/Recording32.js",
+    "carbon-icons-svelte/lib/Reset32": "./carbon-icons-svelte/lib/Reset32.js",
+    "carbon-icons-svelte/lib/Stop32": "./carbon-icons-svelte/lib/Stop32.js",
+    "carbon-icons-svelte/lib/TrashCan24": "./carbon-icons-svelte/lib/TrashCan24.js",
+    "lodash": "./lodash.js",
+    "socket.io-client": "./socket.io-client.js",
+    "svelte": "./svelte.js",
+    "svelte-grid": "./svelte-grid.js",
+    "svelte-grid/build/helper": "./svelte-grid/build/helper.js",
+    "svelte-grid/src/utils/item": "./svelte-grid/src/utils/item.js",
+    "svelte-spa-router": "./svelte-spa-router.js",
+    "svelte/internal": "./svelte/internal.js",
+    "svelte/store": "./svelte/store.js",
+    "svelte/transition": "./svelte/transition.js"
+  }
+}

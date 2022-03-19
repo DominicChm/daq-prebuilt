@@ -1,0 +1,1 @@
+{"version":3,"file":"SchemaManagerOptions.d.ts","sourceRoot":"","sources":["../../../bajacorev1/src/SchemaManager/interfaces/SchemaManagerOptions.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,oBAAoB,EAAC,MAAM,wBAAwB,CAAC;AAE5D,MAAM,WAAW,oBAAoB;IACjC,WAAW,EAAE,oBAAoB,EAAE,CAAC;IACpC,eAAe,EAAE,OAAO,CAAC;CAC5B"}

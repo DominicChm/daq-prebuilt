@@ -1,0 +1,1 @@
+{"version":3,"file":"ModuleDefinition.d.ts","sourceRoot":"","sources":["../../../bajacorev1/src/SchemaManager/schemas/ModuleDefinition.ts"],"names":[],"mappings":"AAAA,OAAO,GAAG,MAAM,KAAK,CAAC;AAGtB,MAAM,WAAW,6BAA6B;IAC1C,QAAQ,EAAE,MAAM,CAAC;IACjB,WAAW,EAAE,MAAM,CAAC;IACpB,YAAY,EAAE,GAAG,CAAC;IAClB,aAAa,EAAE,GAAG,CAAC;CACtB;AAED,eAAO,MAAM,sBAAsB,SAAU,6BAA6B,0BAkBxE,CAAA"}

@@ -1,0 +1,26 @@
+{
+  "name": "daq-prebuilt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "install-backend": "(cd bajacorev1 && npm i)",
+    "compile-backend": "npm run install-backend && tsc --project bajacorev1/tsconfig.json --outDir ./dist",
+    "install-frontend": "(cd bajafrontendv1 && npm i)",
+    "compile-frontend": "npm run install-frontend && (cd bajafrontendv1 && npm run build)",
+    "update-submodules": "git submodule update --init --recursive && git submodule foreach --recursive git fetch && git submodule foreach git merge origin master",
+    "copy-frontend": "copyfiles -u 2 bajafrontendv1/build/**/* dist/public",
+    "copy-backend": "copyfiles -u 1 bajacorev1/package.json dist && npm run copy-workers",
+    "copy-workers": "copyfiles -u 2 bajacorev1/src/TimeSync/worker.js dist",
+    "build": "npm run clean && npm run update-submodules && npm run compile-backend && npm run compile-frontend && npm run copy-frontend && npm run copy-backend",
+    "start": "(cd dist && node index.js)",
+    "pi-install": "cd dist && npm i --only=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"SocketEmitter.d.ts","sourceRoot":"","sources":["../../bajacorev1/src/StreamUtils/SocketEmitter.ts"],"names":[],"mappings":";AAAA,OAAO,EAAC,QAAQ,EAAC,MAAM,QAAQ,CAAC;AAEhC,qBAAa,aAAc,SAAQ,QAAQ;;IAKvC,MAAM,CAAC,KAAK,EAAE,GAAG,EAAE,QAAQ,EAAE,cAAc,EAAE,QAAQ,EAAE,CAAC,KAAK,CAAC,EAAE,CAAC,KAAK,GAAG,IAAI,CAAC,KAAK,IAAI;CAI1F"}

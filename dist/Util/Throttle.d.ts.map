@@ -1,0 +1,1 @@
+{"version":3,"file":"Throttle.d.ts","sourceRoot":"","sources":["../../bajacorev1/src/Util/Throttle.ts"],"names":[],"mappings":"AAIA,qBAAa,QAAQ;IACjB,OAAO,CAAC,QAAQ,CAAC,GAAG,CAAC;IACrB,OAAO,CAAC,QAAQ,CAAY;IAC5B,OAAO,CAAC,YAAY,CAAQ;IAC5B,OAAO,CAAC,SAAS,CAAe;gBAEpB,EAAE,EAAE,QAAQ,EAAE,QAAQ,EAAE,MAAM;IAM1C,IAAI,CAAC,GAAG,IAAI,OAAA;IAOZ,OAAO,CAAC,SAAS;CAapB"}

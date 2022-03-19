@@ -1,0 +1,1 @@
+{"version":3,"file":"StreamPauser.d.ts","sourceRoot":"","sources":["../../bajacorev1/src/StreamUtils/StreamPauser.ts"],"names":[],"mappings":";AAAA,OAAO,EAAC,SAAS,EAAE,iBAAiB,EAAC,MAAM,QAAQ,CAAC;AAIpD,qBAAa,YAAa,SAAQ,SAAS;IACvC,OAAO,CAAC,eAAe,CAAM;;IAO7B,WAAW;IAMX,YAAY;IAUZ,UAAU,CAAC,KAAK,EAAE,GAAG,EAAE,QAAQ,EAAE,cAAc,EAAE,QAAQ,EAAE,iBAAiB;CAM/E"}

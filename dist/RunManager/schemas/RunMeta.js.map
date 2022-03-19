@@ -1,0 +1,1 @@
+{"version":3,"file":"RunMeta.js","sourceRoot":"","sources":["../../../bajacorev1/src/RunManager/schemas/RunMeta.ts"],"names":[],"mappings":";;;;;;AAAA,8CAAsB;AAOT,QAAA,aAAa,GAAG,aAAG,CAAC,MAAM,CAAiB;IACpD,IAAI,EAAE,aAAG,CAAC,MAAM,EAAE,CAAC,OAAO,CAAC,SAAS,CAAC;IACrC,WAAW,EAAE,aAAG,CAAC,MAAM,EAAE,CAAC,OAAO,CAAC,EAAE,CAAC,CAAC,KAAK,CAAC,EAAE,CAAC;CAClD,CAAC,CAAC"}

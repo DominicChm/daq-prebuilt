@@ -1,0 +1,1 @@
+{"version":3,"file":"DAQSchema.d.ts","sourceRoot":"","sources":["../../../bajacorev1/src/SchemaManager/interfaces/DAQSchema.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,gBAAgB,EAAC,MAAM,oBAAoB,CAAC;AAEpD,MAAM,WAAW,SAAS;IACtB,IAAI,EAAE,MAAM,CAAC;IACb,aAAa,EAAE,MAAM,CAAC;IACtB,OAAO,EAAE,gBAAgB,EAAE,CAAC;CAC/B;AAED,eAAO,MAAM,gBAAgB,EAAE,SAI9B,CAAA"}
